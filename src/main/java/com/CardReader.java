@@ -41,7 +41,6 @@ public class CardReader {
     public void calculateTripsAndSaveCSV(String taps) throws ParseException, IOException {
         //convert the json string to json array of object
         JSONArray tapAr = new JSONArray(taps);
-        System.out.println(tapAr);
         JSONArray completedArr = new JSONArray();
         HashMap<String, Integer> tapRecord = new HashMap<>();
         for (int i = 0; i < tapAr.length(); i++){
