@@ -3,9 +3,9 @@
 ## Description
 
 ``The Card Reader application is executed by running in the CardReader class. The application reads the data from the 
-taps.csv files where all the tap rcords are present and converts each record
-into an array of json objects. The calculation of the charge amount based on the taps is calculated and output is stored again as a json object. 
-The json object are the converted to csv format i.e. each object being a row``
+taps.csv files where all the tap records are present and converts each record
+into an array of json objects. The calculation of the charge amount based on the taps is calculated and output is created as a json object. 
+The json object are the converted to csv format i.e. each object being a row and saved under resources directory``
 
 ### How to run the application
 * git clone this repository and go to CardReader directory and run:
